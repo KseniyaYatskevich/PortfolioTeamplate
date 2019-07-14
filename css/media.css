@@ -1,0 +1,166 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+   .image img {
+    width: 255%;
+    
+   }
+    .info .title {
+        font-size: 67px;
+    }
+   .top .image {
+       width: 90%;
+       margin-right: 20px;
+       justify-content: center;
+   }
+   .top .info {
+       margin-top: -30px;
+       margin-left: -40px;
+   }
+   .menu {
+       margin-left: 0;
+   }
+   .menu li {
+       margin-left: 15px;
+   }
+   .header .logo {
+       margin-left: 0;
+   }
+
+} 
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .top {
+        height: auto;
+        min-height: auto;
+    }
+    .content .image img {
+        width: 80%;
+        
+       }
+	.menu li {
+        margin-left: 10px;
+    }
+    .info .title {
+        font-size: 48px;
+    }
+   .top .info {
+       
+       justify-content: center;
+       margin-top: -100px;
+       margin-left: 0;
+       
+   }
+   .top .image {
+       width: 100%;
+       margin: 0;
+   }
+   .content {
+        padding: 90px 30px 126px 30px;
+        text-align: center;
+    }
+   .content .info {
+       padding-bottom: 20px;
+   }
+   .content .info .name {
+       font-size: 40px;
+   }
+   .content .info .text {
+    padding-right: 0;
+    }
+    
+} 
+
+/* Small Devices, Tablets*/
+@media only screen and (max-width : 768px) {
+	  
+    .top .info, .top .image {
+        height: auto;
+    }
+   
+   .top .info {
+       margin-top: 0;
+       padding-top: 50px;
+   }
+
+    .top .image {
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .menu {
+        margin-right: 10px;
+    }
+    
+    footer .form-contact .form-contact__user-message {
+        width: 65%;
+        font-size: 20px;
+    }
+    footer .form-contact .form-contact__button {
+        width: 30%;
+        font-size: 20px;
+    }
+    footer .form-contact .form-contact__user-name, footer .form-contact .form-contact__user-email {
+        width: 65%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+} 
+
+/* Extra Small Devices, Phones*/
+@media only screen and (max-width : 480px) {
+    .top .info, .top .image {
+        margin-top: 50px;
+        padding-top: 0;
+    }
+    
+    .info .title {
+        font-size: 46px;
+        
+    }
+    
+    .info .subtitle {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    footer .form-contact .form-contact__button {
+        width: 40%;
+    }
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+} 
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
